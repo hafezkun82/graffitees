@@ -54,11 +54,10 @@ $sessionid = $session->getVar("SESSIONID");
       </div>
       <ul class="nav">
         <li data-index="0"><div class="outer"><div style="width: 0px; display: block;" class="inner"></div></div><a href="">Shirt of the Day</a></li>
-        <!--
         <li data-index="1"><div class="outer"><div style="width: 0px; display: block;" class="inner"></div></div><a href="">MYR10 for 10 days</a></li>
         <li data-index="2"><div class="outer"><div style="width: 0px; display: block;" class="inner"></div></div><a href="">Limited Edition Tee</a></li>
         <li data-index="3"><div class="outer"><div style="width: 171.684px; display: block; overflow: hidden;" class="inner"></div></div><a href="">Halloween is coming...</a></li>
-        <li data-index="4" class="last"><div class="outer"><div style="width: 0px; display: block;" class="inner"></div></div><a href="">Top Printed Designers</a></li>-->
+        <li data-index="4" class="last"><div class="outer"><div style="width: 0px; display: block;" class="inner"></div></div><a href="">Top Printed Designers</a></li>
       </ul>      
     </section>
     <!-- Slideshow end -->
