@@ -1,0 +1,75 @@
+@CHARSET "ISO-8859-1";
+
+.m-form ul {
+  list-style-type: none;
+}
+
+.m-form ul li {
+  padding: 3px 0px;	
+}
+
+.form_username span{
+	float: left;
+  width: 150px;
+}
+.m-form label.checkbox, .m-form label.radio  {
+  float: none;
+  width: auto;
+}
+
+.m-form ul.fcbk_holder {
+   width:300px;
+   display: inline-block;
+   height: 24px;
+}
+
+/* upload iframe style added on 30/03/2010 */
+.iframe_cont {
+  display: inline;
+  float: left;
+}
+
+.iframe_cont iframe {
+  border: 0 none;
+  height: 23px;
+  width: auto;
+}
+
+.file_content {
+  margin-right: 10px;
+}
+
+.add_image .display {
+  display: inline;
+  vertical-align: top;
+}
+
+.ui-state-default.ui-th-column .repeat {
+  color: #ff0000;
+}
+
+.prev_image_content {
+  margin-right: 50px;
+}
+
+.file_content input,body.three-col #content #submit-section .file_content input
+  {
+  vertical-align: middle;
+  margin: 0px 4px 0px 0px;
+  width: auto;
+}
+
+.file_path, .file_image {
+  float: left;  
+}
+
+.file_image {
+  padding-right: 3px;	
+}
+
+#file_error {
+  display: none;
+  margin-left: 10px;
+}
+
+

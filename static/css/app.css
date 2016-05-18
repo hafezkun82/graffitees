@@ -1,0 +1,688 @@
+@charset "UTF-8";
+
+/* Styles for Pagination */
+
+.paginator .hidden,
+.pagination .hidden {
+	display: none !important;
+}
+
+/* END - Styles for Pagination */
+
+/* Styles for global Loading icon */
+#loading {
+	position: fixed;
+	top: 10px;
+	right: 20px;
+}
+/* END - Styles for global Loading icon */
+
+
+/* Styles for User Recent Activity */
+#user-profile #user-recent-activity .activity .activity-comment-icon {
+  background: url('/img/activity_comment_icon.png');
+  height: 14px;
+  width: 16px;
+  position: absolute;
+  right: 0;
+  top: 7px;
+}
+
+#user-profile #user-recent-activity .activity .activity-reply-icon {
+	background: url('/img/activity_reply_icon.jpg');
+	height: 14px;
+	width: 16px;
+	position: absolute;
+	right: 0;
+	top: 7px;
+}
+
+#user-profile #user-recent-activity .activity .activity-submit-icon {
+	background: url('/img/activity_submit_icon.png');
+	height: 14px;
+	width: 16px;
+	position: absolute;
+	right: 0;
+	top: 7px;
+}
+
+#user-profile #user-recent-activity .activity .activity-like-icon {
+	background: url('/img/activity_like_icon.png');
+	height: 14px;
+	width: 16px;
+	position: absolute;
+	right: 0;
+	top: 7px;
+}
+
+#user-profile #user-recent-activity .activity .activity-vote-icon {
+	background: url('/img/activity_vote_icon.png');
+	height: 14px;
+	width: 13px;
+	position: absolute;
+	right: 0;
+	top: 7px;
+}
+
+
+#user-profile #user-recent-activity .activity .activity-on {
+	font-weight: bold;
+	color: #AAA;
+}
+
+#user-recent-activity .back-to-top {
+	display: block;
+	display: inline;
+	float: left;
+	font-size: 12px;
+	margin-top: 7px;
+}
+
+#user-recent-activity .activity .quote img {
+	max-height: 25px;
+	max-width: 25px;
+}
+
+/* END - Styles for User Recent Activity */
+
+/* Styles for User Favourites */
+#profile-gallery .grid-object .favourite-item-type {
+	font-size: 13px;
+	color: #AAA;
+}
+
+#profile-gallery .paginator li a.selected {
+	color: #000;
+}
+
+#profile-gallery .show_verification_msg, .alert {
+	display: block;
+}
+
+/* END - Styles for User Favourites */
+
+/* Styles for User Registration, Login & Reset Password */
+
+#register_cont, #login_cont {
+	display: none;
+}
+
+#registerform .heading h3,
+#loginform .heading h3,
+#resetpwform .heading h3{
+	font-family: Verdana,Arial,sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+#register #uniform-countrylist {
+	width: 200px;
+}
+
+#register #uniform-countrylist span{
+	width: 175px;
+}
+#register #countrylist {
+	font-family: Verdana,Arial,sans-serif;
+  font-size: 1em;
+}
+
+
+/* END - Styles for User Registration */
+
+/* Styles for Order Summary in Checkout Page  */
+
+#side-view-cart-details tr td {
+	padding: 10px 0;
+	border-bottom: 1px solid #BFBFBF;
+}
+
+#side-view-cart-details tr td span.product,
+#side-view-cart-details tr td span.product-desc,
+#side-view-cart-details tr td span.product-price {
+		display: block;
+		width: 192px;
+}
+
+
+#side-view-cart-details .product a {
+	font-size: 80%;
+	font-weight: bold;
+}
+
+#side-view-cart-details .product-desc {
+	font-size: 70%;
+	color: #888;
+}
+
+#side-view-cart-details .product-price {
+	font-size: 70%;
+	font-weight: bold;
+}
+
+#side-view-cart-details .subtotal,
+#side-view-cart-details .shipping,
+#side-view-cart-details .discount,
+#side-view-cart-details .tax,
+#side-view-cart-details	.discount-detail {
+	font-size: 70%;
+	color: #888;
+	font-weight: bold;
+	margin-bottom: 0px !important;
+}
+
+#side-view-cart-details .subtotal span,
+#side-view-cart-details .shipping span,
+#side-view-cart-details .discount span,
+#side-view-cart-details .tax span,
+#side-view-cart-details .total span {
+	float: right;
+}
+
+#side-view-cart-details .total,
+#side-view-cart-details .notify-user {
+	font-size: 80%;
+	font-weight: bold;
+}
+
+#checkout-preview-page #user-info-first,
+#checkout-preview-page #user-info-second {
+	margin-bottom: 20px;
+}
+
+#checkout-preview-page th.shipping,
+#checkout-preview-page th.billing,
+#checkout-preview-page th.promotion {
+	width: 225px;
+	font-size: 80%;
+	color: #888;
+	font-weight: bold;
+	margin-bottom: 0px !important;
+	padding-bottom: 10px;
+}
+
+#checkout-preview-page td span {
+	display: block;
+	font-size: 75%;
+	font-weight: bold;
+}
+
+#cart tfoot p span {
+	display: inline !important;
+	float: right;
+}
+
+#checkout-order-dialog,
+#checkout-order-dialog .wait-msg,
+#checkout-order-dialog .error-msg,
+#checkout-order-dialog .redirect-msg  {
+	display: none;
+}
+
+.hidden-elem {
+	display: none;
+}
+
+ul.shippingServices label {
+	padding: 10px 0 !important;
+}
+
+ul.shippingServices input {
+	margin-right: 5px !important;
+}
+
+ul.shippingServices .shipping_price {
+	font-size: 1.3em !important;
+	width: 16% !important;
+}
+
+ul.shippingServices .service_name {
+	display: inline-block;
+	vertical-align: top;
+	width: 39%;
+}
+
+ul.shippingServices .service_name span {
+	display: block;
+}
+
+.service_name span.tracking_status {
+	font-weight: normal !important;
+}
+
+ul.shippingServices	.shipping_time {
+	display: inline-block;
+	vertical-align: top;
+	width: 22%;
+}
+
+ul.shippingServices	.service_logo	{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+
+.service_logo .fedex_shipping_logo {
+  background: url('/img/fedex_icon.jpg') no-repeat;
+  width: 160px;
+  height: 50px;
+}
+
+.service_logo .usps_shipping_logo {
+  background: url('/img/usps_icon.png') no-repeat;
+  width: 160px;
+  height: 50px;
+}
+
+.hidden_shipping_state {
+	display: none;
+}
+
+.hidden_credit_card {
+	display: none;
+}
+
+#payment-modes input {
+	float: left;
+}
+
+#payment-modes label {
+	float: left;
+}
+
+#payment-modes .payment_mode_0 {
+	background: url("/img/cc-opt.jpg") no-repeat scroll 0px -3px transparent;
+	width: 225px;
+	height: 30px;
+	text-indent: -2000px;
+}
+
+#payment-modes #payment_mode_0 {
+	/*display: none;*/
+}
+
+#payment-modes .payment_mode_1 {
+	background: url("/img/pp-opt.jpg") no-repeat scroll 0px -3px transparent;
+	width: 100px;
+	height: 30px;
+	text-indent: -2000px;
+}
+
+.dbh_form .m-form li.m-date {
+	width: 10% !important;
+}
+
+.dbh_form .m-form li.m-cvv {
+	width: 26% !important;
+}
+
+#promotionDetails .promo_code, #promotionDetails .dbh_dollar {
+	width: 20% !important;
+}
+
+#promotionDetails .apply_promo {
+	padding-top: 21px !important;
+}
+
+/* END - Styles for Order Summary in Checkout Page */
+
+
+/* Styles for Closet section  */
+
+#closet-upload-image {
+	margin-top: 10px;
+}
+
+#closet-upload-image label {
+	float: left;
+	width: 240px !important;
+}
+
+#closet-upload-image input[type='radio'] {
+	display: inline-block;
+}
+
+.comment .reply-container {
+	display: none;
+	clear: both;
+	padding: 5px;
+/*	margin: 10px 0px 0px 205px; */
+}
+
+.comment .second-level textarea {
+/*	width: 500px; */
+	width: 99%;
+	height: 75px;
+	resize: none;
+}
+
+#view_posts .comment.second-level {
+/*
+		margin-left: 75px;
+*/
+}
+
+.comment.second-level .content {
+	width: 445px;
+}
+
+.comment.second-level textarea {
+/*	width: 430px; */
+	width: 99%;
+	height: 75px;
+	resize: none;
+}
+
+
+#view_posts .comment.third-level {
+/*
+		margin-left: 150px;
+*/		
+}
+
+
+.comment.third-level .content {
+	width: 370px;
+}
+
+.comment.third-level textarea {
+/*	width: 355px;	*/
+	width: 99%;
+	height: 75px;
+	resize: none;
+}
+
+
+#view_posts .comment img {
+	max-width: 540px !important;
+	max-height: 810px !important;
+}
+
+/* END - Styles for Closet section  */
+
+/* Styles for forum create topic section */
+#add_new_forum h1 {
+	margin-bottom: 1px;
+	border-bottom: 1px solid #888;
+}
+
+#add_new_forum .duplicate-info {
+	font-style: italic; 
+	color: #aaa;
+	margin-left: 150px;
+	font-size: 13px;
+}
+
+#add_new_forum input.text {
+	width: 500px;
+	height: 20px;
+}
+
+#add_new_forum textarea.uniform {
+	width: 500px;
+	height: 100px;
+}
+
+
+#paypal-form-submit {
+	float:right;
+}
+input.linkbutton:hover {
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0d85bc), color-stop(100%, #0b72a1));
+}
+input.linkbutton {
+	display:inline;float:left;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(100%, #e3e3e3));background-image:-webkit-linear-gradient(top, #ffffff,#ffffff,#e3e3e3);background-image:-moz-linear-gradient(top, #ffffff,#ffffff,#e3e3e3);background-image:-o-linear-gradient(top, #ffffff,#ffffff,#e3e3e3);background-image:-ms-linear-gradient(top, #ffffff,#ffffff,#e3e3e3);background-image:linear-gradient(top, #ffffff,#ffffff,#e3e3e3);-moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;-ms-border-radius:3px;-khtml-border-radius:3px;border-radius:3px;color:#404040;text-decoration:none;border:1px solid #c3c3c3;font-family:Arial;font-weight:bold;text-align:center;margin:0 3px 0 0;padding:4px 12px;font-size:65%;cursor:pointer
+}
+
+/* END - Styles for forum create topic section */
+
+
+/* Styles for vote detail page */
+
+#vote_container strong.voting-over {
+	background: none !important;
+}
+
+#touts {
+	float: left;
+	margin: 40px 0 0 0;
+}
+
+.touts_message {
+	float: left;
+	width: 306px;
+	height: 250px;
+}
+
+.touts_message a {
+	float: left;
+	width: 306px;
+	font-weight: normal;
+	line-height: 24px;
+}
+
+.touts_message img {
+	border: 3px solid #CCC;
+}
+
+.touts_message h2 {
+	font-size: 18px;
+}
+
+/* END - Styles for vote detail page */
+
+
+/* Styles for vote details page */
+.vote_grid ul .design-info .like-count {
+	background: url("/img/activity_like_icon.png") no-repeat scroll 0 1px transparent;
+  color: #888888;
+  display: inline;
+  float: right;
+  padding-left: 18px !important;
+  margin-right: 5px;
+}
+/* END - Styles for vote details page */
+
+/* Styles for admin anchor link */
+
+a.admin-link {
+	color: #0B709F !important;
+	text-decoration: underline;
+}
+
+a.admin-link:hover {
+	text-decoration: underline;
+}
+/* END - Styles for admin anchor link */
+
+/* Styles for checkout overlay */
+.checkout_overlay  {
+	text-align: center;
+}
+
+.checkout_overlay ul li {
+	padding: 10px;
+}
+
+.checkout_overlay .chk-title-bar {
+	background-color: #B5B5B5;
+	position: relative;
+	white-space: nowrap;
+}
+
+.checkout_overlay .chk-overlay-header{
+	font-family: verdana, sans-serif;
+	width: 388px;
+	display: block;
+	text-align: center;
+	color: white;
+}
+
+.checkout_overlay .chk-item-title  {
+	font-size: 24px;
+}
+/* Styles for checkout overlay */
+
+
+#product-detail #gender_container .stock-status {
+	cursor: pointer;	
+}
+
+#editBillingInfo label, #accountNotification label{
+	float: none !important;	
+}
+
+select[name=country] , select[name=state_list]{
+	width: 211px;
+}
+
+input#confirm_yes{
+	margin-top: 20px;
+	margin-left: 123px;
+    margin-right: 10px;
+}
+
+/* Styles for submit section */
+#submit-new-design .extra-info {
+	font-size: 12px;
+	line-height: 14px;
+	font-style: italic;
+	color: #666;
+	display: block;
+	padding: 4px 0;
+	margin-bottom: 20px;
+}
+/* END - Styles for submit section */
+
+div#comment-description img,  div#comment-description object{
+	max-height: 100px !important;
+    max-width: 100px !important;
+}
+
+div#comment-description object embed{
+	height: 100px !important;
+    width: 100px !important;
+}
+
+.frm_hide{
+	display: none;	
+}
+ 
+/* CSS for preview the topics */
+#original-post .hd {
+    display: block;
+    font-size: 12px;
+    margin-top: 13px;
+    overflow: hidden;
+    padding: 7px;
+}
+
+#earn-dbh-dollars a img {
+	float: left;
+    padding: 1px;	
+}
+
+#forum-detail #original-post  a.delete-topic {
+	-moz-box-orient: vertical;
+    color: #272727;
+    display: inline-block;
+    float: right;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#opt-users-review , #statistic-review, #manage-warehouse-location, #manage-inventory {
+    border: 1px solid #DDDDDD;
+    box-shadow: 2px 2px 2px #E7E7E7;
+    margin: 40px auto;
+    padding: 30px;
+    width: 840px;
+}
+
+.row-header {
+	background-color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold
+}
+
+.row-even {
+	background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    font-size: 11px;
+}
+
+.row-odd {
+	background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-size: 11px;	
+}
+
+#orders-by-day th, #orders-by-month th {
+	border: 1px dotted #EEEEEE;
+	text-align: center;
+}
+
+#orders-by-day td, #orders-by-month td{
+	border: 1px dotted #CCCCCC;
+	text-align: center;
+	padding: 4px;
+}
+
+#design-show-sort-filter{
+	cursor: pointer;
+}
+
+#profile-closet-details .comment-input{
+  	font-size: 13px;
+    resize: none;
+    width: 97.5% !important;
+}
+
+#profile-closet-details .linkbutton {
+    float: right !important;
+}
+
+#total-orders-by-month, #total-orders-by-day {
+	background-color: #000000;
+    border: 3px solid;
+}
+
+#total-orders-by-month .title-bar h2, #total-orders-by-day .title-bar h2 {
+	color: #FFFFFF !important;
+	width: 1005 !important;
+}
+
+#total-orders-by-month table, #orders-by-day table {
+	width: 100%;	
+}
+
+form#show-reset-password ul li input{
+	float: right;
+}
+
+tr.total-val {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#user-order-other-information .bottom-bar{
+	float : none !important;
+}
+
+/* Misc. */
+.title-bar-inner {
+	padding-top:11px;
+}
+.title-bar-inner a{
+	padding-top:0px;
+}
+.title-bar-inner span{
+	font-weight:bold;
+	font-size: 12px;
+	margin-right:8px;
+}
+.title-bar-inner nav{
+	float:right;
+}
