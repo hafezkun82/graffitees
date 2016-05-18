@@ -86,10 +86,11 @@ $sessionid = $session->getVar("SESSIONID");
       <section id="products" class="product_grid_set">
         <section id="recent_tees" class="block product_grid">
           <div class="title-bar">
-            <h2>Top Favorite Tees</h2>
+            <h2>Top Favorite Tees/Spender</h2>
             <div class="title-bar-inner">
-              <span>Shop New T-Shirts</span><nav><a href="<?php echo($_SERVER['PHP_SELF']."?sid=".$sessionid."&pg=shop_tshirt&prodcat=mens");?>" class="">Mens</a> | 
-                <a href="<?php echo($_SERVER['PHP_SELF']."?sid=".$sessionid."&pg=shop_tshirt&prodcat=womens");?>" class="">Womens</a></nav></div></div>
+              <span>Shop New T-Shirts</span>
+              <nav><a href="<?php echo($_SERVER['PHP_SELF']."?sid=".$sessionid."&pg=shop_tshirt&prodcat=mens");?>" class="">Mens</a> | 
+                <a href="<?php echo($_SERVER['PHP_SELF']."?sid=".$sessionid."&pg=shop_tshirt&prodcat=womens");?>" class="">Womens | Auw Auw</a></nav></div></div>
           <ul>
 					<?php
           $row = array();
